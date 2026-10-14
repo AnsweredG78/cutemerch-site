@@ -1,0 +1,61 @@
+{
+ "_note": "PLACEHOLDER preview products. Real products come from Shopify once the store is connected. Prices other than the $1 sticker and the pack prices are placeholders.",
+ "products": [
+  {
+   "handle": "luna-sticker",
+   "title": "Luna Sticker",
+   "type": "Stickers",
+   "price": "1.00",
+   "image": "img/chars/luna.webp"
+  },
+  {
+   "handle": "heart-sticker",
+   "title": "Heart Sticker",
+   "type": "Stickers",
+   "price": "1.00",
+   "image": "img/chars/heart.webp"
+  },
+  {
+   "handle": "momo-sticker",
+   "title": "Momo Sticker",
+   "type": "Stickers",
+   "price": "1.00",
+   "image": "img/chars/momo.webp"
+  },
+  {
+   "handle": "classic-sticker-pack",
+   "title": "Classic Sticker Pack (5)",
+   "type": "Stickers",
+   "price": "5.00",
+   "image": "img/chars/kiwi.webp"
+  },
+  {
+   "handle": "luna-shirt",
+   "title": "Luna Shirt",
+   "type": "Apparel",
+   "price": "24.00",
+   "image": "img/chars/luna.webp"
+  },
+  {
+   "handle": "heart-hoodie",
+   "title": "Heart Hoodie",
+   "type": "Apparel",
+   "price": "42.00",
+   "image": "img/chars/heart.webp"
+  },
+  {
+   "handle": "mocha-mug",
+   "title": "Mocha Mug",
+   "type": "Mugs",
+   "price": "16.00",
+   "image": "img/chars/mocha.webp"
+  },
+  {
+   "handle": "coco-mug",
+   "title": "Coco Mug",
+   "type": "Mugs",
+   "price": "16.00",
+   "image": "img/chars/coco.webp"
+  }
+ ]
+}

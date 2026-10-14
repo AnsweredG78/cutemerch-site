@@ -1,0 +1,10 @@
+{
+  "siteName": "CuteMerch",
+  "domain": "cutemerch.co",
+  "preview": true,
+  "shopify": {
+    "storeDomain": "",
+    "storefrontToken": "",
+    "apiVersion": "2026-04"
+  }
+}

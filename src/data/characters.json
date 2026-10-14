@@ -1,0 +1,137 @@
+[
+ {
+  "name": "Luna",
+  "group": "Luna's Besties",
+  "image": "img/chars/luna.webp"
+ },
+ {
+  "name": "Momo",
+  "group": "Luna's Besties",
+  "image": "img/chars/momo.webp"
+ },
+ {
+  "name": "Heart",
+  "group": "Luna's Besties",
+  "image": "img/chars/heart.webp"
+ },
+ {
+  "name": "Stella",
+  "group": "The Night Crew",
+  "image": "img/chars/stella.webp"
+ },
+ {
+  "name": "Dude",
+  "group": "The Night Crew",
+  "image": null
+ },
+ {
+  "name": "Drizzle",
+  "group": "The Rain Crew",
+  "image": "img/chars/drizzle.webp"
+ },
+ {
+  "name": "Misty",
+  "group": "The Rain Crew",
+  "image": null
+ },
+ {
+  "name": "Sky",
+  "group": "The Rain Crew",
+  "image": "img/chars/sky.webp"
+ },
+ {
+  "name": "Nori",
+  "group": "The Rain Crew",
+  "image": "img/chars/nori.webp"
+ },
+ {
+  "name": "Coco",
+  "group": "Cozy Corner",
+  "image": "img/chars/coco.webp"
+ },
+ {
+  "name": "Mocha",
+  "group": "Cozy Corner",
+  "image": "img/chars/mocha.webp"
+ },
+ {
+  "name": "Earl",
+  "group": "Cozy Corner",
+  "image": null
+ },
+ {
+  "name": "Flame",
+  "group": "Cozy Corner",
+  "image": "img/chars/flame.webp"
+ },
+ {
+  "name": "Spark",
+  "group": "The Sparkle Gang",
+  "image": "img/chars/spark.webp"
+ },
+ {
+  "name": "Trixie",
+  "group": "The Sparkle Gang",
+  "image": "img/chars/trixie.webp"
+ },
+ {
+  "name": "Royal",
+  "group": "The Sparkle Gang",
+  "image": "img/chars/royal.webp"
+ },
+ {
+  "name": "Rosie",
+  "group": "The Sparkle Gang",
+  "image": "img/chars/rosie.webp"
+ },
+ {
+  "name": "Blob",
+  "group": "The Silly Squad",
+  "image": "img/chars/blob.webp"
+ },
+ {
+  "name": "Squish",
+  "group": "The Silly Squad",
+  "image": "img/chars/squish.webp"
+ },
+ {
+  "name": "Lefty",
+  "group": "The Silly Squad",
+  "image": "img/chars/lefty.webp"
+ },
+ {
+  "name": "Kiwi",
+  "group": "The Silly Squad",
+  "image": "img/chars/kiwi.webp"
+ },
+ {
+  "name": "RedForty",
+  "group": "New Neighbors",
+  "image": null
+ },
+ {
+  "name": "Snap",
+  "group": "New Neighbors",
+  "image": null
+ },
+ {
+  "name": "Bey",
+  "group": "New Neighbors",
+  "image": null
+ },
+ {
+  "name": "Jon",
+  "group": "New Neighbors",
+  "image": null
+ },
+ {
+  "name": "Frank",
+  "group": "New Neighbors",
+  "image": null
+ },
+ {
+  "name": "Percy",
+  "group": "New Neighbors",
+  "image": null
+ }
+]
