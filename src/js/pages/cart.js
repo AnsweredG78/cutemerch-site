@@ -6,7 +6,7 @@ export default async function cartPage(root, { isLive }) {
   const render = (cart) => {
     document.querySelectorAll('[data-cart-count]').forEach((el) => (el.textContent = cart ? cart.totalQuantity : 0));
     if (!cart || !cart.lines.nodes.length) {
-      out.innerHTML = `<p>${isLive() ? 'Your cart is empty.' : 'The shop is not connected yet, so there is nothing to buy.'}</p><p><a class="btn" href="shop.html">Browse the shop</a></p>`;
+      out.innerHTML = `<p>${isLive() ? 'Your cart is empty.' : 'Our shop opens soon! Check back to fill your cart.'}</p><p><a class="btn" href="shop.html">Browse the shop</a></p>`;
       return;
     }
     out.innerHTML = `<ul class="cart-lines">${cart.lines.nodes.map((l) => `

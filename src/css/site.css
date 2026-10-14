@@ -163,3 +163,6 @@ details.qa p{margin:0 0 16px;color:#4A3A48}
 .legal h3{font-family:var(--f-head);margin:20px 0 4px;font-size:19px}
 .help-box{background:var(--blush-soft);border:2px solid var(--blush);border-radius:var(--radius);padding:22px;margin-top:32px;text-align:center}
 .legal-nav{width:100%;justify-content:center;font-weight:600;font-size:15px;flex-wrap:wrap;gap:8px 20px}
+
+/* opens-soon banner */
+.soon-banner{margin:0;padding:10px 16px;text-align:center;background:var(--bubblegum);color:#fff;font-family:var(--f-head);font-weight:700;font-size:16px}

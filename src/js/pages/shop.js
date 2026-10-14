@@ -12,13 +12,13 @@ export default async function shop(root, { isLive }) {
   } catch (e) {
     products = null;
     notice.hidden = false;
-    notice.textContent = 'We could not reach the shop just now. Showing preview items instead.';
+    notice.textContent = 'We could not reach the shop just now. Here is a sneak peek instead.';
   }
   const sample = !products;
   if (sample) {
     const data = await (await fetch('data/products.sample.json')).json();
     products = data.products.map((p) => ({ ...p, alt: p.title, variantId: null }));
-    if (!isLive()) { notice.hidden = false; notice.textContent = 'Preview items only: the shop is not connected yet, so nothing can be bought.'; }
+    if (!isLive()) { notice.hidden = false; notice.textContent = 'Here is a sneak peek! Our shop opens soon, so check back to buy your favorites.'; }
   }
 
   const types = ['All', ...new Set(products.map((p) => p.type))];
@@ -32,7 +32,7 @@ export default async function shop(root, { isLive }) {
           <h3>${esc(p.title)}</h3>
           <span class="price">${money(p.price)}</span>
           ${sample || !p.available
-            ? `<button class="btn" disabled>${sample ? 'Coming soon' : 'Sold out'}</button>`
+            ? `<button class="btn" disabled>${sample ? 'Opens soon!' : 'Sold out'}</button>`
             : `<button class="btn" data-add="${esc(p.variantId)}">Add to cart</button>`}
         </div>
       </article>`).join('');

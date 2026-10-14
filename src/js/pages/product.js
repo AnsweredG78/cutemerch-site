@@ -9,7 +9,7 @@ export default async function product(root, { isLive }) {
   if (!p) {
     const data = await (await fetch('data/products.sample.json')).json();
     const s = data.products.find((x) => x.handle === handle);
-    if (s) { p = { ...s, alt: s.title, description: 'Preview item. Real details come from the shop once it is connected.', variantId: null, available: false }; sample = true; }
+    if (s) { p = { ...s, alt: s.title, description: 'Sneak peek! Our shop opens soon, so check back to buy this one.', variantId: null, available: false }; sample = true; }
   }
   if (!p) { out.innerHTML = '<p>We could not find that item. <a href="shop.html">Back to the shop</a></p>'; return; }
   document.title = `${p.title} | CuteMerch`;
@@ -21,7 +21,7 @@ export default async function product(root, { isLive }) {
         <h1 style="font-family:var(--f-head);font-size:clamp(32px,5vw,48px);margin:12px 0">${esc(p.title)}</h1>
         <p style="font-weight:700;color:var(--berry);font-size:22px;margin:0 0 12px">${money(p.price)}</p>
         <p>${esc(p.description)}</p>
-        ${sample || !p.available ? `<button class="btn" disabled>${sample ? 'Coming soon' : 'Sold out'}</button>`
+        ${sample || !p.available ? `<button class="btn" disabled>${sample ? 'Opens soon!' : 'Sold out'}</button>`
           : '<button class="btn" data-add>Add to cart</button>'}
       </div>
     </div>`;

@@ -2,8 +2,8 @@ import { isLive, cartCount } from './shopify.js';
 
 const cfg = window.CUTEMERCH_CONFIG || {};
 
-// Preview banner
-if (cfg.preview) document.querySelectorAll('[data-preview-note]').forEach((el) => (el.hidden = false));
+// "Opens soon" banner until the Shopify store is connected
+if (!isLive()) document.querySelectorAll('[data-soon-banner]').forEach((el) => (el.hidden = false));
 
 // Cart count in the header
 cartCount().then((n) => document.querySelectorAll('[data-cart-count]').forEach((el) => (el.textContent = n)));
